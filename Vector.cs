@@ -55,6 +55,18 @@ namespace VectorRepaso
                 }
             }
         }
-        
+        public void Burbuja(int a, int b)
+        {
+            for (int t = b; t <= a; t--)
+            {
+                for (int d = a; d <= t - 1; d++)
+                {
+                    if (v[d] > v[d + 1])
+                    {
+                        this.Inter(d, d + 1);
+                    }
+                }
+            }
+        }
     }
 }
