@@ -80,5 +80,9 @@ namespace VectorRepaso
             }
             return s;
         }
+        public bool VerificarPar()
+        {
+            return (n % 2 == 0);
+        }
     }
 }
