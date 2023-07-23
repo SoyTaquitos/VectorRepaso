@@ -65,5 +65,20 @@ namespace VectorRepaso
             }
             this.n = num;
         }
+        public int Fibonacci(int ele) //para poder cargar una serie de fibos
+        {
+            int i = 1;
+            int s = 0;
+            int a = 1;
+            int b = 0;
+            while (i <= ele)
+            {
+                b = s;
+                s = s + a;
+                a = b;
+                i++;
+            }
+            return s;
+        }
     }
 }
