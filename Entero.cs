@@ -17,9 +17,13 @@ namespace VectorRepaso
         {
             n = x;
         }
-        public void Cargar(int x)
+        public void CargarN(int x)
         {
             n = x;
+        }
+        public int descargarN()
+        {
+            return n;
         }
         public bool VerificarFibo()
         {

@@ -1,1 +1,9 @@
 C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\bin\Debug\VectorRepaso.exe.config
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\bin\Debug\VectorRepaso.exe
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\bin\Debug\VectorRepaso.pdb
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\obj\Debug\VectorRepaso.csprojResolveAssemblyReference.cache
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\obj\Debug\VectorRepaso.Form1.resources
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\obj\Debug\VectorRepaso.Properties.Resources.resources
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\obj\Debug\VectorRepaso.csproj.GenerateResource.Cache
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\obj\Debug\VectorRepaso.exe
+C:\Visual Studio 2015\PROYECTOS\VectorRepaso\VectorRepaso\obj\Debug\VectorRepaso.pdb

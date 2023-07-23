@@ -15,7 +15,7 @@ namespace VectorRepaso
             max = 50;
             v = new int[max];
         }
-        public void Cargar(int n1, int a , int b)
+        public void CargarV(int n1, int a , int b)
         {
             Random r = new Random();
             n = n1;
@@ -24,7 +24,7 @@ namespace VectorRepaso
                 v[i] = r.Next(a, b);
             }
         }
-        public string Descargar()
+        public string DescargarV()
         {
             string s = "";
             for (int i = 1; i <= n; i++)
