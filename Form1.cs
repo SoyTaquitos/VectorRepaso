@@ -22,6 +22,7 @@ namespace VectorRepaso
         private void Form1_Load(object sender, EventArgs e)
         {
             m1 = new Matriz();
+            v1 = new Vector();
         }
 
         private void cargarToolStripMenuItem2_Click(object sender, EventArgs e)
@@ -91,6 +92,34 @@ namespace VectorRepaso
         private void ordTri7ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             m1.OrdTri7();
+            textBox5.Text = m1.DescargarM();
+        }
+
+        private void cargarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            v1.CargarV(int.Parse(textBox1.Text), int.Parse(textBox2.Text), int.Parse(textBox3.Text));
+        }
+
+        private void descargarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox4.Text = v1.DescargarV();
+        }
+
+        private void interToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            v1.Intercalar2men2may (int.Parse(textBox2.Text), int.Parse(textBox3.Text));
+            textBox5.Text = v1.DescargarV();
+        }
+
+        private void burbujaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            v1.Burbuja();
+            textBox5.Text = v1.DescargarV();
+        }
+
+        private void examEj2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            m1.Examen20232();
             textBox5.Text = m1.DescargarM();
         }
     }

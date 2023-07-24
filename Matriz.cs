@@ -342,5 +342,51 @@ namespace VectorRepaso
                                 this.Intercambiar(fd, cd, fp, cp);
                     }                           
         }
+
+
+        public void examen2023()
+        {
+            int co;
+            for (int i = 2; i <= this.f; i++)
+            {
+                for (int j = this.c - i + 2; j <= this.c; j++)
+                {
+                    for (int ii = i; ii <= this.f; ii++)
+                    {
+                        co = (ii == i) ? (j) : (this.c - ii + 2);
+                        for (int jj = co; jj <= this.c; jj++)
+                        {
+                            if (this.m[i, j] > this.m[ii, jj])
+                                this.Intercambiar(i, j, ii, jj);
+                        }
+                    }
+                }
+            }
+        }
+
+        public void Examen20232()
+        {
+            int i;
+            for (int c1 = 2; c1 <= c; c1++)
+            {                         
+                for (int f1 = f - c1 + 2; f1 <= f; f1++)
+                {
+                    for (int c2 = c1; c2 <= c; c2++)
+                    {
+                        i = (c1 == c2) ? (f1) : (this.f - c2 + 2);
+                        for (int f2 = i; f2 <= f; f2++)
+                        {                         
+                                if (m[f1, c1] < m[f2, c2])
+                                {
+                                    this.Intercambiar(f1, c1, f2, c2);
+                                }                           
+                            }
+
+                        }
+
+                  }
+
+              }
+         }
     }
 }
